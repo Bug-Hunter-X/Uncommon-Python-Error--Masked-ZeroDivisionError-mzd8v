@@ -1,0 +1,1 @@
+This repository demonstrates a subtle Python error that can be hard to find.  The code appears to handle the case where x is 0, but due to an error in the logic the ZeroDivisionError is still possible under certain circumstances.  The solution shows how to correctly prevent this error.
